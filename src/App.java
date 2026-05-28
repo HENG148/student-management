@@ -51,7 +51,7 @@ public class App {
     boolean running = true;
 
     while (running) {
-      System.out.println("MENU");
+      System.out.println(MENU);
       System.out.println("\n Enter your choice (1-8): ");
       String choice = scanner.nextLine().trim();
 
